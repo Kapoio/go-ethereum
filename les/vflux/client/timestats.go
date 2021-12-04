@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Kapoio/go-kapoio/les/utils"
+	"github.com/Kapoio/go-kapoio/rlp"
 )
 
 const (

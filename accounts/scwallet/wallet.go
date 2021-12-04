@@ -33,12 +33,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Kapoio/go-kapoio"
+	"github.com/Kapoio/go-kapoio/accounts"
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/crypto"
+	"github.com/Kapoio/go-kapoio/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"github.com/status-im/keycard-go/derivationpath"
 )

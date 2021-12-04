@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/Kapoio/go-kapoio/common/mclock"
+	"github.com/Kapoio/go-kapoio/crypto"
+	"github.com/Kapoio/go-kapoio/p2p/discover/v5wire"
+	"github.com/Kapoio/go-kapoio/p2p/enode"
+	"github.com/Kapoio/go-kapoio/p2p/enr"
 )
 
 // readError represents an error during packet reading.

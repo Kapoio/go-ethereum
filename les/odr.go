@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/Kapoio/go-kapoio/common/mclock"
+	"github.com/Kapoio/go-kapoio/core"
+	"github.com/Kapoio/go-kapoio/ethdb"
+	"github.com/Kapoio/go-kapoio/light"
 )
 
 // LesOdr implements light.OdrBackend

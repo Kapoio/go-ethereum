@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Kapoio/go-kapoio/accounts"
+	"github.com/Kapoio/go-kapoio/core/rawdb"
+	"github.com/Kapoio/go-kapoio/ethdb"
+	"github.com/Kapoio/go-kapoio/event"
+	"github.com/Kapoio/go-kapoio/log"
+	"github.com/Kapoio/go-kapoio/p2p"
+	"github.com/Kapoio/go-kapoio/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

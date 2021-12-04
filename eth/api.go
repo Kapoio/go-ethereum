@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/common/hexutil"
+	"github.com/Kapoio/go-kapoio/core"
+	"github.com/Kapoio/go-kapoio/core/rawdb"
+	"github.com/Kapoio/go-kapoio/core/state"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/internal/ethapi"
+	"github.com/Kapoio/go-kapoio/log"
+	"github.com/Kapoio/go-kapoio/rlp"
+	"github.com/Kapoio/go-kapoio/rpc"
+	"github.com/Kapoio/go-kapoio/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

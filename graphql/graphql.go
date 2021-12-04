@@ -24,15 +24,15 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Kapoio/go-kapoio"
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/common/hexutil"
+	"github.com/Kapoio/go-kapoio/common/math"
+	"github.com/Kapoio/go-kapoio/core/state"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/eth/filters"
+	"github.com/Kapoio/go-kapoio/internal/ethapi"
+	"github.com/Kapoio/go-kapoio/rpc"
 )
 
 var (

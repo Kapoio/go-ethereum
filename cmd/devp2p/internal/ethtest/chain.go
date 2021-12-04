@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Kapoio/go-kapoio/core"
+	"github.com/Kapoio/go-kapoio/core/forkid"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/params"
+	"github.com/Kapoio/go-kapoio/rlp"
 )
 
 type Chain struct {

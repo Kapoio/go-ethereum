@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/internal/testlog"
+	"github.com/Kapoio/go-kapoio/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

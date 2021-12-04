@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Kapoio/go-kapoio/cmd/devp2p/internal/v4test"
+	"github.com/Kapoio/go-kapoio/internal/utesting"
+	"github.com/Kapoio/go-kapoio/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

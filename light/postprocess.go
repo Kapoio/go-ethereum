@@ -25,17 +25,17 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/common/bitutil"
+	"github.com/Kapoio/go-kapoio/core"
+	"github.com/Kapoio/go-kapoio/core/rawdb"
+	"github.com/Kapoio/go-kapoio/core/types"
+	"github.com/Kapoio/go-kapoio/ethdb"
+	"github.com/Kapoio/go-kapoio/log"
+	"github.com/Kapoio/go-kapoio/params"
+	"github.com/Kapoio/go-kapoio/rlp"
+	"github.com/Kapoio/go-kapoio/trie"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/Kapoio/go-kapoio/common"
+	"github.com/Kapoio/go-kapoio/consensus/ethash"
+	"github.com/Kapoio/go-kapoio/console/prompt"
+	"github.com/Kapoio/go-kapoio/core"
+	"github.com/Kapoio/go-kapoio/eth"
+	"github.com/Kapoio/go-kapoio/eth/ethconfig"
+	"github.com/Kapoio/go-kapoio/internal/jsre"
+	"github.com/Kapoio/go-kapoio/miner"
+	"github.com/Kapoio/go-kapoio/node"
 )
 
 const (
