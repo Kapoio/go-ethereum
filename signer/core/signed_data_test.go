@@ -32,7 +32,7 @@ import (
 	"github.com/Kapoio/go-kapoio/common/math"
 	"github.com/Kapoio/go-kapoio/crypto"
 	"github.com/Kapoio/go-kapoio/signer/core"
-	"github.com/Kapoio/go-kapoio/signer/core/apitypes\""
+	"github.com/Kapoio/go-kapoio/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

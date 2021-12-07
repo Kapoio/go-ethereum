@@ -29,7 +29,6 @@ import (
 	"github.com/Kapoio/go-kapoio/common"
 	"github.com/Kapoio/go-kapoio/common/hexutil"
 	"github.com/Kapoio/go-kapoio/core/types"
-	"github.com/Kapoio/go-kapoio/ethdb"
 	"github.com/Kapoio/go-kapoio/event"
 	"github.com/Kapoio/go-kapoio/rpc"
 )
@@ -51,7 +50,6 @@ type PublicFilterAPI struct {
 	backend   Backend
 	mux       *event.TypeMux
 	quit      chan struct{}
-	chainDb   ethdb.Database
 	events    *EventSystem
 	filtersMu sync.Mutex
 	filters   map[rpc.ID]*filter
@@ -62,7 +60,6 @@ type PublicFilterAPI struct {
 func NewPublicFilterAPI(backend Backend, lightMode bool, timeout time.Duration) *PublicFilterAPI {
 	api := &PublicFilterAPI{
 		backend: backend,
-		chainDb: backend.ChainDb(),
 		events:  NewEventSystem(backend, lightMode),
 		filters: make(map[rpc.ID]*filter),
 		timeout: timeout,
