@@ -72,7 +72,7 @@ var (
 		LondonBlock:             big.NewInt(0),
 		ArrowGlacierBlock:       nil,
 		MergeForkBlock:          big.NewInt(720),
-		TerminalTotalDifficulty: big.NewInt(2),
+		TerminalTotalDifficulty: big.NewInt(1440),
 		Clique: &CliqueConfig{
 			Period: 5,
 			Epoch:  30000,
